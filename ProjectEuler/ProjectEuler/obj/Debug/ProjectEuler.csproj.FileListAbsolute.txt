@@ -6,3 +6,12 @@ C:\Users\Jorda\Documents\GitHub\ProjectEuler\ProjectEuler\ProjectEuler\obj\Debug
 C:\Users\Jorda\Documents\GitHub\ProjectEuler\ProjectEuler\ProjectEuler\obj\Debug\ProjectEuler.csproj.GenerateResource.Cache
 C:\Users\Jorda\Documents\GitHub\ProjectEuler\ProjectEuler\ProjectEuler\obj\Debug\ProjectEuler.exe
 C:\Users\Jorda\Documents\GitHub\ProjectEuler\ProjectEuler\ProjectEuler\obj\Debug\ProjectEuler.pdb
+C:\Users\me\Source\Repos\ProjectEuler\ProjectEuler\ProjectEuler\bin\Debug\ProjectEuler.exe.config
+C:\Users\me\Source\Repos\ProjectEuler\ProjectEuler\ProjectEuler\obj\Debug\ProjectEuler.exe
+C:\Users\me\Source\Repos\ProjectEuler\ProjectEuler\ProjectEuler\obj\Debug\ProjectEuler.pdb
+C:\Users\me\Source\Repos\ProjectEuler\ProjectEuler\ProjectEuler\bin\Debug\ProjectEuler.exe
+C:\Users\me\Source\Repos\ProjectEuler\ProjectEuler\ProjectEuler\bin\Debug\ProjectEuler.pdb
+C:\Users\me\Source\Repos\ProjectEuler\ProjectEuler\ProjectEuler\obj\Debug\ProjectEuler.csprojResolveAssemblyReference.cache
+C:\Users\me\Source\Repos\ProjectEuler\ProjectEuler\ProjectEuler\obj\Debug\ProjectEuler.Menu.resources
+C:\Users\me\Source\Repos\ProjectEuler\ProjectEuler\ProjectEuler\obj\Debug\ProjectEuler.Properties.Resources.resources
+C:\Users\me\Source\Repos\ProjectEuler\ProjectEuler\ProjectEuler\obj\Debug\ProjectEuler.csproj.GenerateResource.Cache

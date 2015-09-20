@@ -13,8 +13,6 @@ namespace ProjectEuler
 {
     public partial class Menu : Form
     {
-        private static List<Problem> problems = new List<Problem>();
-
         public Menu()
         {
             InitializeComponent();
@@ -22,19 +20,39 @@ namespace ProjectEuler
 
         private void Menu_Load(object sender, EventArgs e)
         {
+            getListOfProblems().ForEach(t => addProblemToList(t));
+        }
+
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            executeProblem();
+        }
+
+        private List<System.Type> getListOfProblems()
+        {
             var q = from t in Assembly.GetExecutingAssembly().GetTypes()
                     where t.IsClass && t.Namespace == "ProjectEuler.Problems"
                     select t;
-            q.ToList().ForEach(t => addProblemToList(t.FullName));
+
+            return q.ToList();
         }
 
-        private void addProblemToList(string strNamespace)
+        private void addProblemToList(Type t)
         {           
-            Type t = Type.GetType(strNamespace);
             dynamic p = Activator.CreateInstance(t);
             listBox1.Items.Add(p.name + " - " + p.description);                   
         }
 
+        private void executeProblem()
+        {
+            if(listBox1.SelectedItems.Count > 0)
+            {
+                dynamic problem = Activator.CreateInstance(getListOfProblems()[listBox1.SelectedIndex]);
+                MessageBox.Show(problem.execute().ToString());               
+            }         
+        }
 
+ 
     }
 }

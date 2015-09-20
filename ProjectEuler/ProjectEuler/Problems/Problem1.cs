@@ -8,7 +8,6 @@ namespace ProjectEuler.Problems
 {
     class Problem1 : Problem
     {        
-        public override int id { get { return 1; } }
         public override string name { get { return "Problem 1"; } }
         public override string description { get { return "Multiples of 3 and 5"; } }
 

@@ -50,6 +50,14 @@ namespace ProjectEuler
             {
                 filteredList.ForEach(i => listBox1.Items.Add(i));
             }
+
+            //Reverse list box so correctly sorted
+            for (int i = 0; i < listBox1.Items.Count / 2; i++)
+            {
+                var tmp = listBox1.Items[i];
+                listBox1.Items[i] = listBox1.Items[listBox1.Items.Count - i - 1];
+                listBox1.Items[listBox1.Items.Count - i - 1] = tmp;
+            }
         }
 
         //Get list of problems in problems namespace

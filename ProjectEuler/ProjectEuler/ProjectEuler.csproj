@@ -68,6 +68,9 @@
     <Compile Include="Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Problems\Problem16.cs" />
+    <Compile Include="Problems\Problem15.cs" />
+    <Compile Include="Problems\Problem14.cs" />
     <Compile Include="Problems\Problem13.cs" />
     <Compile Include="Problems\Problem12.cs" />
     <Compile Include="Problems\Problem10.cs" />

@@ -5,4 +5,3 @@ Project Euler is a collection of mathmatical based problems; intended to be solv
 - Andrew Cave
 - Ben Bristow
 - Jordan McCall
-- Josh Wright
